@@ -5,8 +5,8 @@ var express = require("express");
 var app = express();
 
 // 3000 포트로 서버 오픈
-app.listen(3000, function () {
-    console.log("start! express server on port 3000");
+app.listen(5000, function () {
+    console.log("start! express server on port 5000");
 });
 
 // request 와 response 라는 인자를 줘서 콜백 함수를 만든다.
